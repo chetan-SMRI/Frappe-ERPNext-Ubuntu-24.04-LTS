@@ -170,6 +170,8 @@ Now press (Ctrl-X) to exit
     
     bench --site sitename add-to-hosts
 
+    bench --site sitename enable-scheduler
+
 Open url http://dcode.com:8000 to login 
 
 
