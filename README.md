@@ -156,7 +156,7 @@ Now press (Ctrl-X) to exit
     
 ### STEP 13 initilise the frappe bench & install frappe latest version 
 
-    bench init frappe-bench --frappe-path https://github.com/chetan-SMRI/frappe --frappe-branch version-15 --python python3.11
+    bench init frappe-bench --frappe-path https://github.com/chetan-SMRI/frappe --frappe-branch version-15
     
     cd frappe-bench/
     bench start
@@ -166,9 +166,9 @@ Now press (Ctrl-X) to exit
 >### Note 
 >Warning: MariaDB version ['10.11', '7'] is more than 10.8 which is not yet tested with Frappe Framework.
     
-    bench new-site dcode.com
+    bench new-site sitename
     
-    bench --site dcode.com add-to-hosts
+    bench --site sitename add-to-hosts
 
 Open url http://dcode.com:8000 to login 
 
