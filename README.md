@@ -186,5 +186,7 @@ Open url http://dcode.com:8000 to login
     
     
 
+# Common Error Resolution
 
+      <a href="https://github.com/chetan-SMRI/Frappe-ERPNext-Version-15--in-Ubuntu-22.04-LTS?tab=readme-ov-file#common-error-resolutionwhile-installation">Error</a
     
