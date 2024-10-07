@@ -26,6 +26,10 @@ to run tunneling from system to localtonet, run this is current folder
 cd /home/abc/Desktop/Localtonet/localtonet-linux-x64/ && ./localtonet authtoken SECURE_KEY_BY_LOCALTONET
 
 ## Setup to autorun website using localtonet (CRON JOB
-do crontab -e
-then enter @restart cd /home/abc/Desktop/Localtonet/localtonet-linux-x64/ && ./localtonet authtoken SECURE_KEY_BY_LOCALTONET
+do "sudo crontab -e"
+
+then enter 
+
+@restart cd /home/abc/Desktop/Localtonet/localtonet-linux-x64/ && ./localtonet authtoken SECURE_KEY_BY_LOCALTONET
+
 and hit save, then restart, so from next time , you will see it autorunning on startup
